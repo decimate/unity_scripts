@@ -13,7 +13,7 @@ public class SceneSwitch : MonoBehaviour
 		EditorSceneManager.LoadScene(EditorSceneManager.GetActiveScene().buildIndex + 1);
 		
 		// Method 2 - Loads a specific scene, based on the Build index
-		//EditorSceneManager.LoadScene(1);
+		// EditorSceneManager.LoadScene(1);
 	}
 
 }
